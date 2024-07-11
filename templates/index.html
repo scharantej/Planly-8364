@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Time</title>
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<h1>Smart Time</h1>
+<form action="/create_planner" method="POST">
+<label for="tasks">Tasks:</label>
+<input type="text" id="tasks" name="tasks[]" multiple>
+<br>
+<label for="time_slots">Time Slots:</label>
+<input type="text" id="time_slots" name="time_slots[]" multiple>
+<br>
+<input type="submit" value="Create Planner">
+</form>
+</body>
+</html>
+
+
