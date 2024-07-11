@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Time</title>
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<h1>Smart Time</h1>
+<h2>Planner</h2>
+
+{% for task in planner.tasks %}
+<p>{{ task }}</p>
+{% endfor %}
+
+{% for time_slot in planner.time_slots %}
+<p>{{ time_slot }}</p>
+{% endfor %}
+</body>
+</html>
+
